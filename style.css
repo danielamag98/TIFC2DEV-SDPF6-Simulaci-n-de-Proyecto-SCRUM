@@ -2,4 +2,240 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+/* ================== CUERPO ======================== */
+body{
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 180px;
+  font-family: Georgia, serif;
+  background-color: #d9ced9;
+  color: black;
+}
+
+/* ================== CONTENIDO PRINCIPAL ======================== */
+main {
+  margin: 0;
+  padding: 90px 90px 20px 40px;
+}
+
+
+/* ================= TAREA 3: MENÚ ================= */
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #3f2f2a;
+  padding: 20px 40px 20px 20px; 
+  color: white;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14 px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.menu a{
+  color: white;
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.menu ul {
+  position: absolute;
+  top: 14px;
+  right: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 0 0 5px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.menu li a:hover {
+  border-color: #422509;
+  background-color: #5a443d;
+}
+
+.logo{
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22 px;
+  font-weight: bold;
+  margin-right: 40 px;
+}
+
+.lista-menu{
+  position: absolute;
+  top: 14px;
+  right: 40px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-menu li{
+  display:inline-block;
+}
+
+.lista-menu a{
+  display: inline-block;
+  padding: 8px 16 px;
+  margin: 0 0 5 px;
+  border: 2 px solid transparent;
+  border-radius: 6 px;
+}
+
+/* ======================= PIE ========================= */
+.pie{
+  position:absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+
+  background-color: #3f2f2a;
+  color: white; 
+  border-top: 40 px;
+  padding: 30px 40 px;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+}
+
+.columna{
+  display: inline-block;
+  vertical-align: top;
+  width: 28%;
+  padding: 0 2%
+}
+
+.columna h3 {
+  margin: 0 0 10 px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.columna p{
+  text-align: center;
+  margin: 0 0 6px 0;
+  padding: 0;
+}
+
+/* ================= Tasks5: libros ================= */
+.subtitulo{
+  margin: 0 0 20 px 0;
+  color: #3f2f2a;
+  border-bottom: 100 px solid #c0392b;
+  padding-bottom: 8px;
+}
+
+.portada{
+  display: inline-block;
+  vertical-align: top;
+  width: 26%;
+  padding: 0 0 0 4%;
+}
+
+.portada img{
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 125px;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+.ficha{
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 0 2%;
+}
+
+.encabezado{
+  border-bottom: 2px solid #3f2f2a;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.ficha h3{
+  margin: 0 0 4px 0;
+  font-size: 30px;
+  color: rgb(70, 45, 5);
+}
+.ficha h4{
+  margin: 0;
+  font-size: 18 px;
+  font-weight: normal;
+  font-style: italic;
+  color: #5a443d;
+}
+
+.ficha h5 {
+  margin: 0 0 25px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c0392b;
+}
+
+.ficha h6 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.ficha p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ================= Task7: CONTACTO ================= */
+.fila-contacto {
+  margin-bottom: 30px;
+}
+
+.tarjeta {
+  display: inline-block;
+  vertical-align: top;
+  width: 26%;
+  padding: 20px 2%;
+  margin-right: 2%;
+
+  background-color: #ffffff;
+  border: 1px solid #c9b8cc;
+  border-top: 6px solid #c0392b;
+  border-radius: 8px;
+}
+
+.tarjeta h3 {
+  margin: 0 0 8px 0;
+  color: #3f2f2a;
+}
+
+.tarjeta p {
+  margin: 0;
+}
